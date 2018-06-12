@@ -1,0 +1,122 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*entete*/
+header{
+  height: 80px;
+  width: 1400px;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none; position: absolute;
+}
+
+ ul{
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+
+}
+ul li{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  text-decoration: none;
+}
+
+header h5{
+  text-decoration: none; color: black;
+
+  font-size: 20px;
+}
+
+/*millieu*/
+main {
+  height: 750px;
+  width: 1400px;
+  margin: 0px;
+  display: inline-flex;
+  justify-content: center;
+
+}
+/*centredelapage*/
+section{
+  top: 50px;
+  height: 400px;
+  width: 1400px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  align-self: center;
+}
+
+input{
+  height: 40px;
+  width: 500px;
+  border-style: ridge; opacity: 0.2;
+  box-shadow: 8px 8px 12px #66635d;
+}
+
+/*pied de page*/
+
+
+
+footer h5{
+
+margin: 0px;
+  height: 80px;
+  width: 1400px;
+  background-color: #A9A9A9; opacity: 0.3;
+
+}
+footer ul{
+  padding: 0px;
+  margin: 0px;
+  height: 80px;
+  width: 1400px;
+  border-top: solid;
+  background-color: #A9A9A9; opacity: 0.3;
+  display: flex;
+  }
+
+  h5 footer{
+  display: flex;
+  justify-content:
+  }
+footer li {
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
